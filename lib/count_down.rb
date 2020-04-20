@@ -1,6 +1,9 @@
 # Write your code here
 count = 10
+hny = 0
 while count >= 1 do
-  count -= 10
+  break if count == hny
+  puts "Happy New Year!"
   puts "#{count}"
+  count -= 10
 end
